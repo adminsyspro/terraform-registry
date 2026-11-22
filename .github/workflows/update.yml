@@ -1,0 +1,42 @@
+name: Update registry
+
+# Regenerates the registry from the public GitHub releases of the providers
+# and pushes when something changed; Cloudflare Pages deploys every push to
+# main. A new provider release shows up within half an hour, or at once with
+# a manual run.
+
+on:
+  schedule:
+    - cron: "*/30 * * * *"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: update-registry
+  cancel-in-progress: false
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7.0.1
+      - name: Generate
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          rm -rf public
+          python3 -I scripts/generate.py public
+          cp scripts/_headers public/_headers
+      - name: Commit when changed
+        run: |
+          git add -A public
+          if git diff --cached --quiet; then
+            echo "Registry up to date."
+            exit 0
+          fi
+          git -c user.name="github-actions[bot]" -c user.email="41898282+github-actions[bot]@users.noreply.github.com" \
+            commit -m "Update the registry from the provider releases"
+          git push

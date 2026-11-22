@@ -1,0 +1,23 @@
+{
+  "protocols": [
+    "6.0"
+  ],
+  "os": "freebsd",
+  "arch": "arm64",
+  "filename": "terraform-provider-proxcenter_0.1.0_freebsd_arm64.zip",
+  "download_url": "https://github.com/adminsyspro/terraform-provider-proxcenter/releases/download/v0.1.0/terraform-provider-proxcenter_0.1.0_freebsd_arm64.zip",
+  "shasums_url": "https://github.com/adminsyspro/terraform-provider-proxcenter/releases/download/v0.1.0/terraform-provider-proxcenter_0.1.0_SHA256SUMS",
+  "shasums_signature_url": "https://github.com/adminsyspro/terraform-provider-proxcenter/releases/download/v0.1.0/terraform-provider-proxcenter_0.1.0_SHA256SUMS.sig",
+  "shasum": "a1e6ab12ca526ebc86611d411f5f52f20c9292ba3f6659ce3f854ebfbfa9fba6",
+  "signing_keys": {
+    "gpg_public_keys": [
+      {
+        "key_id": "E6F5F38BE03A888F",
+        "ascii_armor": "-----BEGIN PGP PUBLIC KEY BLOCK-----\n\nmQINBGsC63sBEADmfMm9nET8VScomtjVRcJizO4wlYm2t0rSgduwZTKDKMevK2IM\ndacTW1P/dGGQTyUVu/OdeX5z28FoJJV37HOFlNmSxVb07q84zACdX946Vno1n31n\nT5lyn95id1VHnuy3OFKI0rzGcmTm6iM/7lfgnoiQLNG8/OtnTv7G2MTL6z1JvKLL\nRDa9JNVmz+mx73DE+CSTVVcUUvpvPkCha+phX842Ah7Lqmh5OBw7xc86oWKWCOdv\nNZsxvf/LMuq3fpYEBQdtyTXoqA5MEjKNGqQCebSA8aMNJA+aIppp/HeqmKqnQanp\nAhT1iC6vyQ6HiLbRKBS8hWaTlQnd36pGQSNJNGE5kAazfLrcAJ9pWkd1Hyse/4iT\n05pUrdBEHalmzEvuc03yXlkpIxM0RExxiwE8oCd3LLH58nqc7sxeRsqryHL6mZDO\ngKqvySp0RSF7F8Sk3B4gNN6y9le5ZfCVfJa/m2ck1wQqyWJb9+KeqPnDA7wn3Yry\nzTe6S2yUMkR20/U/7OBVGmIZAEJmJk/ZwsfQ2WgJUF73hITo3EeokDBdRfyqKMNx\nTqGpUSNsWx+GjuXftnd5LSOEjmiLc2fUNEcxlsbRgm/Ib177xmLJE4yJ91KDZAUw\n3vr8gfu900IMYxCrF01JZQMxyY2Emkk6TsDasESMOUwUE9yGTaP59qeVewARAQAB\ntDZQcm94Q2VudGVyIFRlcnJhZm9ybSBQcm92aWRlciA8c2VjdXJpdHlAcHJveGNl\nbnRlci5pbz6JAk4EEwEKADgWIQToQiaox+bn4OIsmabm9fOL4DqIjwUCawLrewIb\nAwULCQgHAgYVCgkICwIEFgIDAQIeAQIXgAAKCRDm9fOL4DqIj/vaD/91MOGwoouf\n/BhsTJcbIGGWjLGXj+vLGTLiFIoKg0tJErpMgbhukLTOeaSn2zE9ZbZVlXvy4z+G\npRKEoRtnY0gJ4nWwTk8uX9W5rOG6TeZTXHdBIAykEKZPL+c3r7Fa3ftX8r+4b5pj\nDRRuNDUkwFms+XTg4u0u3K1uuxMqjPVz6eZVUBFb89qGAsbatKmEYTMb4babx5by\n2voSnMTWRkjydF5TuwL+Zd1le1djvOKm5HmH0UqFyJqeWThVJZRDVneBYeZ+ezF/\ny85HH1AVoOPAIIj5zCF8jOc+6a2D9o8x0eZ9ynNc3BEEiGfSbmWEbh8qwGicxQUx\ncDjXPGALXfW2HFAfB8hAshoJfQek2KvEVaa+7LTpQouzAN9wAcU2b826jvfzBbSG\njd9RQVcp4z7mA8xmAIH8LL83erGLiI6j7PZhcXFdtxbHwZbLYSD0zxzwWqmoWZQ8\nadcffSc5wpfsxlgLj1kDb72Q3bG2BJ9Lpbb6gwXeNF0NBkfNI8BeB0fjWHTbk2yg\nqEldLsqwte6lj7LhYxsHoM+V6OLCcDOkJNwsx/DyM8f7NHlYUYURH2ghKDTMG5q/\ntx6iNuTMcoaP6vMla4lS4qi0QspeawCcsEanhMC2A6FPYgup9ceQsQM0MTl6YACJ\ntd2btnE2TUYKJIudjVRg8Zwdi3CFzk60uQ==\n=+lAp\n-----END PGP PUBLIC KEY BLOCK-----\n",
+        "trust_signature": "",
+        "source": "ProxCenter",
+        "source_url": "https://registry.proxcenter.io/"
+      }
+    ]
+  }
+}

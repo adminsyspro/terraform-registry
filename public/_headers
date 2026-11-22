@@ -1,0 +1,7 @@
+/.well-known/terraform.json
+  Content-Type: application/json
+  Access-Control-Allow-Origin: *
+
+/v1/*
+  Content-Type: application/json
+  Access-Control-Allow-Origin: *
